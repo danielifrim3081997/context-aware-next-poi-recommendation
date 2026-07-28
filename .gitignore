@@ -1,0 +1,37 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Environment variables and credentials
+.env
+.env.*
+kaggle.json
+credentials.json
+service_account*.json
+
+# Large data and generated artifacts
+*.parquet
+*.pkl
+*.pickle
+*.zip
+*.pt
+*.pth
+*.ckpt
+cache/
+data/raw/
+data/processed/
+preprocessing_outputs/
+modeling_results/
+
+# Keep repository documentation and selected small result files
+!data/README.md
+!results/README.md
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
